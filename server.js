@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: ['https://newmobdata.netlify.app', 'http://localhost:5173'] // Your frontend URL
+    origin: ['https://mobileproducts-front.vercel.app/', 'http://localhost:5173'] // Your frontend URL
   }));
 // Middleware to parse JSON requests
 app.use(express.json());
