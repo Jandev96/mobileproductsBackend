@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: 'https://newmobdata.netlify.app/', // Replace with your frontend URL
+    origin: 'https://newmobdata.netlify.app', // Replace with your frontend URL
   }));
 // Middleware to parse JSON requests
 app.use(express.json());
